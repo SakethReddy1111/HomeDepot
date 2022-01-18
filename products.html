@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/products.css" />
+
+    <script
+      src="https://kit.fontawesome.com/69fcd821d5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <div id="content">
+      <div id="class1896">
+        <img
+          src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/delivery-desktop.jpg"
+          alt=""
+        />
+      </div>
+      <div id="displayProducts">
+        <div id="id55">
+          <div id="resultsFound">1620 Results</div>
+          <div id="sortBy">
+            Sort by :
+            <span>
+              <select name="" id="id78" onchange="sortBy()">
+                <option value="topSellers">Top Sellers</option>
+                <option value="mostPopular">Most Popular</option>
+                <option value="low">Price Low to High</option>
+                <option value="high">Price High to Low</option>
+                <option value="topRated">Top Rated Products</option>
+              </select>
+            </span>
+          </div>
+        </div>
+        <div id="col15">
+          <div id="filters">
+            <div id="getItFast">
+              <h3>Get It Fast</h3>
+              <div>
+                <input type="checkbox" />
+                <p>In Stock at Store Today</p>
+              </div>
+            </div>
+            <div id="availability">
+              <h3>Availability</h3>
+              <div>
+                <input type="checkbox" name="" id="" />
+                <p>Hide Unavailable Products</p>
+              </div>
+            </div>
+            <div id="price">
+              <h3>Price</h3>
+              <div>
+                <input type="text" name="" id="" placeholder="$ Min" />
+                <p>to</p>
+                <input type="text" name="" id="" placeholder="$ Max" />
+              </div>
+              <div>
+                <input type="checkbox" name="" id="" />
+                <input type="checkbox" name="" id="" />
+
+                <p>$10 - $20</p>
+              </div>
+              <div>
+                <input type="checkbox" name="" type="" id="" />
+                <p>$20 - $50</p>
+              </div>
+              <div>
+                <input type="checkbox" name="" id="" />
+                <p>$50 - $100</p>
+              </div>
+              <div>
+                <input type="checkbox" name="" id="" />
+                <p>$100 - $200</p>
+              </div>
+              <div>
+                <input type="checkbox" name="" value="200" />
+                <p>$200 - $500</p>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name=""
+                  value="500"
+                  id="check123"
+                  type="radio"
+                />
+                <p>$500 & Above</p>
+              </div>
+            </div>
+            <div id="rating">
+              <h3>By Rating</h3>
+              <select name="" id="changeRating" onchange="getRated()">
+                <option value="0">Unrated</option>
+                <option value="2">2 Star & up</option>
+                <option value="3">3 Star & up</option>
+                <option value="4">4 Star & up</option>
+                <option value="5">Only 5 star</option>
+              </select>
+            </div>
+          </div>
+          <div id="products"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
+<script src="./scripts/products.js"></script>
