@@ -124,8 +124,33 @@ i {
 }
 #rating > select {
   height: 25px;
-
   width: 100%;
   font-weight: bold;
   border: none;
+}
+#price input {
+  min-width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+#class6541 > input {
+  min-width: 50px;
+  height: 50px;
+  text-align: center;
+}
+#class6541 > p {
+  padding: 8px;
+}
+#subtell {
+  border: gray solid 2px;
+  color: gray;
+  background-color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1em;
+  text-align: center;
+}
+#subtell:hover {
+  background-color: #f96302;
+  color: white;
 }

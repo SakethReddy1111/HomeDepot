@@ -253,12 +253,80 @@ function getRated() {
   showProducts(op);
 }
 
-let checkbox = document.getElementById("check123");
+let checkbox10 = document.getElementById("check10");
 
-checkbox.addEventListener("change", function () {
+checkbox10.addEventListener("change", function () {
   if (this.checked) {
-    console.log(checkbox.value);
+    minMax(10, 20);
   } else {
-    console.log("Checkbox is not checked..");
+    showAll();
   }
 });
+
+let checkbox20 = document.getElementById("check20");
+
+checkbox20.addEventListener("change", function () {
+  if (this.checked) {
+    minMax(20, 50);
+  } else {
+    showAll();
+  }
+});
+
+let checkbox50 = document.getElementById("check50");
+
+checkbox50.addEventListener("change", function () {
+  if (this.checked) {
+    minMax(50, 100);
+  } else {
+    showAll();
+  }
+});
+
+let checkbox100 = document.getElementById("check100");
+
+checkbox100.addEventListener("change", function () {
+  if (this.checked) {
+    minMax(100, 200);
+  } else {
+    showAll();
+  }
+});
+
+let checkbox200 = document.getElementById("check200");
+
+checkbox200.addEventListener("change", function () {
+  if (this.checked) {
+    minMax(200, 500);
+  } else {
+    showAll();
+  }
+});
+
+let checkbox500 = document.getElementById("check500");
+
+checkbox500.addEventListener("change", function () {
+  if (this.checked) {
+    minMax(500, 100000);
+  } else {
+    showAll();
+  }
+});
+
+function searchByValue() {
+  let min = document.getElementById("minMoney").value;
+  let max = document.getElementById("maxMoney").value;
+
+  minMax(min, max);
+}
+
+function minMax(min, max) {
+  let op = vases.filter((el) => {
+    return min < Number(el.msp) && max > Number(el.msp);
+  });
+  showProducts(op);
+}
+
+let showAll = () => {
+  showProducts(vases);
+};
