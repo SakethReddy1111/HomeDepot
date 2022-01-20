@@ -1,5 +1,118 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  background-color: #f3f5f5;
+}
+.container_services {
+  border: 1px solid red;
+  background-color: gray;
+}
+.container_services > h1 {
+  margin: auto;
+  color: white;
+  transform: translate(20px, 50px);
+}
+#orange {
+  color: #ff6923;
+}
+.bkg-img {
+  background-image: url("http://cdn.home-designing.com/wp-content/uploads/2016/01/black-living-room-accent-colors.jpg");
+  height: 100%;
+  width: 100%;
+}
+.bkg-img > img {
+  height: 60%;
+  width: 100%;
+}
+.search_bar_services {
+  border: 1px solid #f96302;
+  margin-top: 100px;
+  display: flex;
+}
+.search_box {
+  max-width: 500px;
+  width: 50%;
+  height: 35px;
+  display: flex;
+}
+.search-bar {
+  width: 85%;
+  height: 100%;
+  border: 2px solid #dbdbdb;
+  padding: 0 20px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.search-btn {
+  width: 15%;
+  height: 100%;
+  background: #f0f0f0;
+  border: 2px solid #dbdbdb;
+  padding: 5px 0;
+  border-left: none;
+}
+.search-btn img {
+  height: 100%;
+  width: 50%;
+}
+
+/* --------------section 3 --------------*/
+.jointeam {
+  padding-top: 48px;
+  padding-bottom: 32px;
+  background-color: #fff;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1440px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+.jointeam > img {
+  height: 150px;
+  width: 150px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 24px;
+  vertical-align: middle;
+  transform: scale(0.5, 0.5);
+}
+.jointeam > h2 {
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 24px;
+}
+.jointeam > h5 {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+.jointeam > button {
+  font-size: 18px;
+  line-height: 27px;
+  height: 56px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  border: 2px solid #f96302;
+  background-color: transparent;
+  justify-content: center;
+  color: #f96302;
+  touch-action: manipulation;
+  cursor: pointer;
+  outline: none;
+  border-radius: 0;
+  appearance: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 16px;
+  transition: background 0.1s ease-in-out, color 0.1s ease-in-out,
+    border 0.1s ease-in-out;
+}
+.jointeam > p > a {
+  text-decoration: none;
+}
+.jointeam > p > a:hover {
+  border-bottom: 1px solid #f96302;
 }

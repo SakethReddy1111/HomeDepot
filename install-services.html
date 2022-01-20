@@ -5,26 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/install-styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./styles/header.css" />
     <title></title>
   </head>
   <body>
+    <!-- header -->
+    <div class="main"></div>
     <!-- background -->
-    <div class="bkg-img"></div>
+
     <div class="container_services">
+      <div class="bkg-img">
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fliveblogspot.com%2Fwp-content%2Fuploads%2F2019%2F10%2F5-Creative-Tips-to-Brighten-Up-A-Dark-Living-Room.jpg&f=1&nofb=1"
+          alt="background image"
+        />
+      </div>
       <h1>
         Home Services <br />
         Let <b id="orange">us </b>do it for you
       </h1>
       <div class="search_bar_services">
-        <form action="">
-          <input
-            type="text"
-            placeholder="Search for more than 400 home improvement schemes"
-          />
-          <button><img src="search.svg" alt="" /></button>
-        </form>
-        <div class="contact"></div>
+        <div class="search_box">
+          <input type="text" class="search-bar" placeholder="search" />
+          <button class="search-btn">
+            <img src="" alt="search_button" />
+          </button>
+        </div>
+        <div class="contact">
+          <p>
+            Or call us <br />
+            (855) 752-3352
+          </p>
+        </div>
       </div>
+    </div>
+    <!-- section 2 -->
+    <h1>Discover how we can help with your next project</h1>
+    <div id="line-horizontal orange"></div>
+    <!-- section 3 -->
+    <div class="jointeam">
+      <img src="" alt="" class="jointeam" />
+      <h2>Become a Home Depot Pro</h2>
+      <h5>We're always looking for outstanding local</h5>
+      <button>Apply Now!</button>
+
+      <p>
+        We follow EPA lead-safe work practices.<a href="" id="orange"
+          >Learn more.</a
+        >
+      </p>
+      <p>
+        Click here to view<a href="" id="orange"
+          >Home Depot licensing information</a
+        >
+      </p>
     </div>
   </body>
 </html>
+
+<script type="module">
+  import { header } from "./components/headerComp.js";
+  document.querySelector(".main").innerHTML = header();
+
+  document
+    .getElementById("location_search")
+    .addEventListener("keypress", function (event) {
+      if (event.key == "Enter") {
+        let value = document.getElementById("location_search").value;
+        document.getElementById("view_location").textContent = value;
+      }
+    });
+</script>
