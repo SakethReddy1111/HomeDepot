@@ -5,8 +5,295 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="cart_page.css">
 </head>
 <body>
-    this is cart page
+
+
+<div class="container">
+    <div class="div60">
+         <div class="card">
+            <div><img style="height:40px; width:50px;" src="https://www.homedepot.com/mycart/assets/images/thd_cc.png" alt="">
+            </div>
+           
+           <div>
+              <h3>Pay $80 per Month* When You Use Your Card</h3>
+              <p>$80 per month* suggested payments with 6 months financing on this $479.00 <br> purchase. <a href="#">View Details</a> </p>
+           </div>
+           <div id="line">
+
+           </div>
+              <div>
+                  <p>Don't have a card?</p>
+                  <button class="btn">Apply Now</button>
+              </div>
+           
+           </div>
+           
+           <!-- card ends here -->
+           
+            
+               <div class="your_cart">
+                   <div class="cart1">Your Cart(1)</div>
+                   <div>  <img id="arrow" src="https://www.homedepot.com/mycart/assets/images/shareCart.png" alt=""> share</div>
+               </div>
+               <hr style="margin-top: 0px; border:1px solid grey; margin: 0px;">
+           
+            <a style="display: block; margin-top: 15px;" href="">Remove All Items</a>
+           
+               <p>FREE Shipping on eligible items. <a href="">View Details</a> </p>
+           
+     <div class="cart_item" id="cart_item">
+                  
+                   <div > <img class="cart_img" src="https://images.thdstatic.com/productImages/ce8a178f-e0bd-4733-8381-fcd8c8390513/svn/dewalt-power-tool-combo-kits-dckts781d2m1-64_400.jpg" alt="">
+                      <div  class="input count">1</div>
+                   </div>
+                   <div>
+                 
+                       <div style="display: flex; justify-content: space-between;" class="price_txt">
+                           <div>
+                            <p class="cart_name"> <span style="color:black; font-size:large; font-weight:bolder;">DEWALT</span>  20-Volt MAX Cordless Combo Kit (7- <br> Tool) with ToughSystem Case, (1) 20-Volt 4.0Ah <br> Battery & (2) 20-Volt 2.0Ah  Batteries</p>
+                  
+                            <p>Attachment Options: Combo Kit Only <br>
+                             Number of Tools Included: 7</p>
+                           </div>
+                         
+                            <div class="cart_price">
+                                <p><span style="color:black; font-size:large; font-weight:bolder;">$479.00 </span>  <br>
+                               <span style="text-decoration: line-through;"> $699.00</span>  <br>
+                                      <span style="color:green; font-size:13px;">Save 31%</span> </p>
+                           </div>
+                       </div>
+                      
+                       <div class="inner_div">
+                           <div>
+           
+                           </div>
+                           <div style="text-align:center;">
+                                 
+                               <img style="height: 20px; width:20px; background:#f96302; margin:0px; margin-top:5px; " src="data:image/jpeg;base64,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" alt="">
+           
+                               <p style="font-size: 12px;">
+                                   Ship To Home <br>
+                                   Order within 10 hrs <br> 50 mins get it by Mon, <br> Jan 31</p>
+                                   <p style="color:green; font-weight:bolder; margin-top:30px; ">FREE</p>
+                           </div>
+                           <div style="text-align:center;">
+                                 
+                               <img style="height: 20px; width:20px; background:#f96302; margin:0px; margin-top:5px; " src="data:image/png;base64,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" alt="">
+           
+                               <p style="font-size: 12px;">
+                                   Scheduled Delivery <br>
+                                   Delivery tomorrow</p>
+                                   
+                           </div>
+                       </div>
+                       <!-- inner_div ends here -->
+                  <hr>
+                    <p style="display: flex; gap:10px;"> <input style="width:30px; height:30px; border:3px solid grey; display: inline-block;" type="checkbox"> 
+                   <label style="display:inline">Add a Home Depot Protction Plan by allstate? <br>
+                   3-year Protection for $75.00 
+                       <a style="margin-left:50px; color:grey;" id="learnmore" href="">learn more</a> </label>
+                   </p>
+                   
+                   <hr>
+                   <div style="display:flex; color:teal; gap: 10px;">
+                       <p>Save to watch later |</p>
+                       <p>Save to favorites |</p>
+                       <p class="remove" onclick="removeItem(event)">Remove</p>
+                   </div>
+           
+           
+           
+                   </div>
+                 
+               
+                <!-- div without class ends here -->
+           
+               </div> 
+            <!-- cart_items ends here -->
+
+            <div class="cart_item" id="cart_item">
+                  
+                <div > <img class="cart_img" src="https://images.thdstatic.com/productImages/ce8a178f-e0bd-4733-8381-fcd8c8390513/svn/dewalt-power-tool-combo-kits-dckts781d2m1-64_400.jpg" alt="">
+                   <div  class="input count">1</div>
+                </div>
+                <div>
+              
+                    <div style="display: flex; justify-content: space-between;" class="price_txt">
+                        <div>
+                         <p class="cart_name"> <span style="color:black; font-size:large; font-weight:bolder;">DEWALT</span>  20-Volt MAX Cordless Combo Kit (7- <br> Tool) with ToughSystem Case, (1) 20-Volt 4.0Ah <br> Battery & (2) 20-Volt 2.0Ah  Batteries</p>
+               
+                         <p>Attachment Options: Combo Kit Only <br>
+                          Number of Tools Included: 7</p>
+                        </div>
+                      
+                         <div class="cart_price">
+                             <p><span style="color:black; font-size:large; font-weight:bolder;">$479.00 </span>  <br>
+                            <span style="text-decoration: line-through;"> $699.00</span>  <br>
+                                   <span style="color:green; font-size:13px;">Save 31%</span> </p>
+                        </div>
+                    </div>
+                   
+                    <div class="inner_div">
+                        <div>
+        
+                        </div>
+                        <div style="text-align:center;">
+                              
+                            <img style="height: 20px; width:20px; background:#f96302; margin:0px; margin-top:5px; " src="data:image/jpeg;base64,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" alt="">
+        
+                            <p style="font-size: 12px;">
+                                Ship To Home <br>
+                                Order within 10 hrs <br> 50 mins get it by Mon, <br> Jan 31</p>
+                                <p style="color:green; font-weight:bolder; margin-top:30px; ">FREE</p>
+                        </div>
+                        <div style="text-align:center;">
+                              
+                            <img style="height: 20px; width:20px; background:#f96302; margin:0px; margin-top:5px; " src="data:image/png;base64,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" alt="">
+        
+                            <p style="font-size: 12px;">
+                                Scheduled Delivery <br>
+                                Delivery tomorrow</p>
+                                
+                        </div>
+                    </div>
+                    <!-- inner_div ends here -->
+               <hr>
+                 <p style="display: flex; gap:10px;"> <input style="width:30px; height:30px; border:3px solid grey; display: inline-block;" type="checkbox"> 
+                <label style="display:inline">Add a Home Depot Protction Plan by allstate? <br>
+                3-year Protection for $75.00 
+                    <a style="margin-left:50px; color:grey;" id="learnmore" href="">learn more</a> </label>
+                </p>
+                
+                <hr>
+                <div style="display:flex; color:teal; gap: 10px;">
+                    <p>Save to watch later |</p>
+                    <p>Save to favorites |</p>
+                    <p class="remove" onclick="removeItem(event)">Remove</p>
+                </div>
+        
+        
+        
+                </div>
+              
+            
+             <!-- div without class ends here -->
+        
+            </div> 
+         <!-- cart_items ends here -->
+
+            <p  class="cart1" style="width: 500px;">Customers Also Purchased...</p>
+            <hr style="margin-top: 0px; border:1px solid grey; margin: 0px;">
+
+
+
+
+
+
+    </div>
+    <!-- div60 ends here  -->
+    <div class="div40">
+
+              <p style="font-size: 25px;">Your Order</p>
+              <hr>
+
+              <div class="bill">
+                  <div>
+                     <h3>Subtotal</h3>
+                     <p style="color:green">Saving</p>
+                     <p>Estimated Shipping*</p>
+                     <p>Sales Tax (determined in later step)</p>
+                    </div>
+                  <div>
+                      <h3>$699.00</h3>
+                      <p style="color:green">-$200.00</p>
+                      <p style="color:green">FREE</p>
+                    <p>---</p>
+                    
+                  </div>
+              </div>
+              <!-- bill ends here -->
+              <hr>
+          <div class="total">
+              <div>
+                  <h3>Total</h3>
+                  <p style="color:green">You Saved 29% Off Your Item</p>
+                  <p>Have a promo code?</p>
+                </div>
+              <div>
+                  <h2>$499<sup style="font-size: 10px;">00</sup> </h2>
+              </div>
+          </div>
+          <!-- total ends here -->
+         
+         <p style="font-size: 12px;">* Shipping and delivery charges are calculated at the lowest rate available. <br> Other methods will be viewable on the next page.</p>
+         <button  class="checkout">Checkout</button>
+
+         <hr>
+         <p style="text-align:center; color:grey;">Turn on Instant Checkout</p>
+         <hr>
+
+         <p style="text-align:center;">— or —</p>
+         <button class="paypall_btn"><i style="color:blue;">Pay</i><i style="color:teal;">Pal</i>checkout</button>
+
+         <div class="hr_line"></div>
+
+
+           <div class="off" >
+              <div><img src="https://www.homedepot.com/mycart/assets/images/credit-card.svg" alt=""></div> 
+                  <div class="off_div"><h3>Get up to $100 off</h3>
+                <p>Get a Home Depot Credit Card and receive $25 off <br> your purchase of $25+ , $50 off purchases $300+,<br>  or $100 off orders over $1,000 <br> <a style="display: inline-block; margin-top: 5px;" href="">Apply Now</a> </p>
+                  <hr>
+                  <div class=cal_price>
+                      <ul>
+                          <li>
+                            Item Total</li>
+                          <li >Savings</li>
+                          <li style="color:green">New Total</li>
+                      </ul>
+
+                      <ul>
+                        <li>
+                            $499.00
+                        </li>
+                        <li>-$50.00</li>
+                        <li style="color:green">$449.00</li>
+                    </ul>
+                  </div>
+                <!-- cal_price ends here -->
+             
+            </div> 
+            <!-- off_div ends hrere -->
+          
+           </div>
+           <!-- off ends hrere -->
+           <div class="hr_line"></div>
+
+           <div class="right_btm">
+               <p>See our <span  class="btm" style="color:green">online FAQs</span>  or phone us:</p>
+               <p>Online Customer Support:<span class="btm" >1-800-430-3376</span> </p>
+               <p>Major Appliances:<span class="btm"  >1-877-946-9843</span> </p>
+               <p>Custom Blinds:<span class="btm"  >1-800-658-7320</span> </p>
+               <p>Call 7 days a week - 6 a.m. to 2 a.m. EST</p>
+           </div>
+
+           <div class="hr_line"></div>
+
+    </div>
+    <!-- div40 ends here -->
+</div>
+
+
+
+
+
+
+
+
+   
 </body>
 </html>
+<script src="cart_page.js">
+
+</script>
