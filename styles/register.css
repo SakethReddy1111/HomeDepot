@@ -1,0 +1,53 @@
+#contain {
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+}
+#imagediv {
+  width: 90px;
+  margin: auto;
+}
+img {
+  width: 100%;
+}
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+h2 {
+  text-align: center;
+}
+#detailsDiv {
+  line-height: 0px;
+  color: gray;
+  margin-bottom: 25px;
+  font-size: small;
+}
+input {
+  height: 35px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+button {
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+  color: #f96302;
+  border: #f96302 solid 2px;
+  background-color: white;
+}
+button:hover {
+  color: white;
+  background-color: #f96302;
+}
+a {
+  text-decoration: none;
+  color: #3e7697;
+}
+#ptags p {
+  color: #333;
+  text-align: center;
+}
+#miniptags {
+  font-size: x-small;
+  line-height: 5px;
+}
