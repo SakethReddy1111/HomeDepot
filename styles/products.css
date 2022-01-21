@@ -57,7 +57,7 @@ h3 > sup {
   color: green;
 }
 
-button {
+.class624 button {
   width: 100%;
   margin-top: 15px;
   margin-left: -8px;
@@ -153,4 +153,37 @@ i {
 #subtell:hover {
   background-color: #f96302;
   color: white;
+}
+h3 > sup {
+  top: auto;
+  line-height: normal;
+}
+.class55 {
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.class141 {
+  padding-bottom: 15px;
+}
+.class55 h3 {
+  line-height: normal;
+}
+p {
+  padding-top: 15px;
+}
+#getitFast input {
+  padding-top: 10px;
+}
+#subtell:hover {
+  border: none;
+}
+#navbar i {
+  color: black;
+}
+.col-5 {
+  display: flex;
+}
+#changeRating {
+  font-weight: normal;
+  font-size: small;
 }
