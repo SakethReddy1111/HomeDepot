@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Home Page</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Bootstrap Files -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap Files -->
+
+  <link rel="stylesheet" href="./styles/header.css" />
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+
+</head>
+
+<body>
+  <div class="main">
+  </div>
+  <div class="crousel">
+    <div id="carouselExampleIndiscators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indiscators">
+        <button type="button" data-bs-target="#carouselExampleIndiscators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndiscators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndiscators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20220113-Bath.jpg"
+            class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20220106-Appliances-1.jpg"
+            class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20220113-Storage.jpg"
+            class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndiscators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndiscators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="posters">
+    <img
+      src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20210304HPHomeServicesD.png"
+      width="100%" alt="">
+  </div>
+  <div class="categories">
+    <div class="head">
+      <h1>Shop by Category</h1>
+      <div class="line">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="cetegory"></div>
+  </div>
+  <br>
+  <br>
+  <hr>
+  <div class="special">
+    <div>
+      <div>
+        <img src="https://www.homedepot.com/SpecialBuy/images/Logo-SBOTD.svg" width="13%" alt="">
+        <div>
+          <h3>Up to $675 off Select Vanities, Bidets & Faucets</h3>
+          <p>Free Delivery. <span><b>Today Only.</b></span></p>
+        </div>
+      </div>
+      <div>
+        <button>Shop Today's Spacials</button>
+      </div>
+    </div>
+    <div id="specialItems"></div>
+  </div>
+  <br>
+  <hr>
+  <div class="discounts">
+    <div class="head">
+      <h1>Get Doing Inside & Out </h1>
+      <div class="line">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div id="disc_items"></div>
+  </div>
+  <div class="posters ">
+    <img
+      src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20210304HPHomeServicesD.png"
+      width="100%" alt="">
+  </div>
+  <div class="amenities"></div>
+  <div class="posters ">
+    <img
+      src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20210913HPCreditOfferD.png"
+      width="100%" alt="">
+  </div>
+  <br>
+  <br>
+  <div class="categories">
+    <div class="head">
+      <h1>You're Shoping <b id="view_location2"></b></h1>
+      <div class="line">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="location_Div"></div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="categories" id="sponser_div">
+    <div class="head">
+      <h1>Sponsored Products</h1>
+      <div class="line">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- Sponsered crausel -->
+    <div #swiperRef="" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <!-- Sponsered crausel -->
+
+  </div>
+  <footer></footer>
+</body>
+
+</html>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script type="module">
+
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 6,
+    centeredSlides: false,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "none",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+
+
+
+  // Imports 
+  import { header } from "./components/headerComp.js";
+  document.querySelector(".main").innerHTML = header()
+  import footerFunc from "./components/footer.js";
+  document.querySelector("footer").innerHTML = footerFunc();
+
+
+
+
+
+
+
+
+
+
+  //  Location Finder
+  document.getElementById("location_search").addEventListener("keypress", function (event) {
+    if (event.key == 'Enter') {
+      let value = document.getElementById("location_search").value;
+      document.getElementById("view_location").textContent = value.toUpperCase();
+      document.getElementById("view_location2").textContent = value.toUpperCase();
+      document.getElementById("inputpart").style.display = "none"
+    }
+  });
+
+
+
+
+
+
+  // Category Section
+  let arr = ["https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/hp-50-51-sbc-overstock-button-dsk.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/hp-50-51-sbc-ss-button-dsk.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat1-Appliances.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat2-Bath.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat4-Building.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat5-Decor.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat7-Electrical.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat8-Flooring.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat9-Hardware.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat10-Hvac.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat11-Kitchen.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat12-LawnGarden.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat13-Lighting.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat14-OutdoorLiving.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat15-Paint.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat16-Plumbing.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat17-StorageOrg.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat18-Tools.png"]
+  appendCat(arr)
+  function appendCat(arr) {
+    arr.map((el) => {
+      let category = document.querySelector(".cetegory");
+      let image = document.createElement("img");
+      image.src = el
+      category.append(image);
+    })
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  // Special Section
+
+  let arr1 = ["https://images.thdstatic.com/productImages/583353b4-6cd0-4ff1-abfc-6c221aae5406/svn/home-decorators-collection-bathroom-vanities-with-tops-8105300410-64_145.jpg", "https://images.thdstatic.com/productImages/ac406453-b0e4-417e-b5e7-f8b5d581c143/svn/home-decorators-collection-bathroom-vanities-with-tops-sonoma-48w-64_145.jpg", "https://images.thdstatic.com/productImages/e9d7bc6c-86ea-4144-9944-fd3fcf2f11a1/svn/home-decorators-collection-bathroom-vanities-with-tops-aberdeen-72g-64_145.jpg", "https://images.thdstatic.com/productImages/e8fc4634-4528-4c96-bd2a-85bee1ad3cca/svn/home-decorators-collection-bathroom-vanities-with-tops-aberdeen-60w-64_145.jpg", "https://images.thdstatic.com/productImages/d9f19f09-d46e-407f-baec-9a0a3f87526f/svn/home-decorators-collection-bathroom-vanities-with-tops-eebvt4922d-64_145.jpg", "https://images.thdstatic.com/productImages/1604e811-554f-4c09-b68f-e11b6fb3fe9a/svn/home-decorators-collection-bathroom-vanities-with-tops-19112-vs49-ag-64_145.jpg", "https://images.thdstatic.com/productImages/eddec11b-627f-44df-9565-5709d40942ca/svn/home-decorators-collection-bathroom-vanities-with-tops-19112-vs31-ag-64_145.jpg", "https://images.thdstatic.com/productImages/f442fdfe-1ff9-4b8f-8e9f-4c690fc02955/svn/home-decorators-collection-bathroom-vanities-with-tops-bellington-24w-64_145.jpg", "https://images.thdstatic.com/productImages/238f5105-0c64-44b9-a781-0f13f285f04f/svn/home-decorators-collection-bathroom-vanities-with-tops-sonoma-72c-64_145.jpg"];
+  appendSpacial(arr1)
+  function appendSpacial(arr) {
+    arr.map((el) => {
+      let category = document.querySelector("#specialItems");
+      let image = document.createElement("img");
+      image.src = el;
+      category.append(image);
+    })
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //  Discount Section
+
+  let arr3 = [
+    {
+      image: "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20220113-Tools.jpg",
+      disc: "UP TO 40% OFF",
+      opt: " Select Tools + Free 2-Day Delivery"
+    },
+    {
+      image: "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20220113-Bedding.jpg",
+      disc: "UP TO 30% OFF",
+      opt: " Select Furniture, Mattresses & Linens"
+    },
+    {
+      image: "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20220113-Lighting.jpg",
+      disc: "UP TO 25% OFF",
+      opt: " Select Vanity Lighting"
+    },
+    {
+      image: "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/20211228-Flooring.jpg",
+      disc: "FLOORING FOR EVERY SPACE",
+      opt: " See Styles in Your Room with our Visualizer"
+    }
+  ]
+  appendDiscount(arr3)
+  function appendDiscount(arr) {
+
+    arr.map((el) => {
+
+      let category = document.querySelector("#disc_items");
+      let smallDiv = document.createElement("div");
+      let image = document.createElement("img");
+      image.src = el.image
+      let h = document.createElement("h2");
+      h.textContent = el.disc;
+      let p = document.createElement("p");
+      p.textContent = el.opt;
+      smallDiv.append(image, h, p);
+      category.append(smallDiv)
+    })
+  }
+
+
+
+
+
+
+
+  //  Amenities Section
+
+  let arr4 = ["https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/2021DAppCapabilities5.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/2021RentalCapabilities5.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/2021CUrbsideCapabilities5.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/2021DeliveryCapabilities5.png"];
+
+  appendAminity(arr4)
+  function appendAminity(arr) {
+    arr.map((el) => {
+      let category = document.querySelector(".amenities");
+      let image = document.createElement("img");
+      image.src = el
+      category.append(image);
+    })
+  }
+
+
+
+
+
+  // Special carausel
+
+  // swiper-slide
+
+  let object2 = [
+    {
+      image: "https://images.thdstatic.com/productImages/5248be12-ff60-4e78-b924-271aed1e90cc/svn/ghostbed-bed-pillows-11gbpw010-64_300.jpg",
+      span: "GHOSTBED",
+      detail: "Cool To The Touch Soft Memory Foam Standard Pillow",
+    }, {
+      image: "https://images.thdstatic.com/productImages/64e6fb90-fcb2-4acc-8cd1-b7d3c533ee6a/svn/ghostbed-bed-pillows-11gbfdp010-64_300.jpg",
+      span: "GHOSTBED",
+      detail: "Faux Down Soft Microfiber Gel Memory Foam Standard Pillow",
+    }, {
+      image: "https://images.thdstatic.com/productImages/c317f15c-8fe8-4832-8e85-c28db2086ee8/svn/mint-home-dynamix-bathroom-rugs-bath-mats-10-dmd-411-64_300.jpg",
+      span: "Home Dynamix",
+      detail: "Capri Haven Mint 17 in. x 24 in. Memory Foam Bath Mat",
+    }, {
+      image: "https://images.thdstatic.com/productImages/04ca72f7-c0a0-4c77-bd56-56486b9b42f0/svn/multi-color-the-clean-store-bath-towels-148-64_300.jpg",
+      span: "THE CLEAN STORE",
+      detail: "Washcloths Cleaning (60-Pack)",
+    }, {
+      image: "https://images.thdstatic.com/productImages/1b20ecbf-22d9-47a2-8cf1-f49b5e3082ed/svn/white-home-dynamix-bathroom-rugs-bath-mats-2-omstr-105-64_300.jpg",
+      span: "Home Dynamix",
+      detail: "Ombre Element White/Ivory 20 in. x 32 in. Stripe Polyester Bath Mat",
+    }, {
+      image: "https://images.thdstatic.com/productImages/1db068e7-38f0-4dac-acf9-3a086f200517/svn/white-bath-towels-149-64_300.jpg",
+      span: "Hand Towel ",
+      detail: "Standard Towel (Set of 12)",
+    }, {
+      image: "https://images.thdstatic.com/productImages/d6537990-a94b-415c-a449-c07371975e80/svn/zinus-mattress-toppers-hd-gtft-150sq-64_300.jpg",
+      span: "Zinus",
+      detail: "Zinus in. Medium No Pocket Memory Foam Short Queen Mattress Topper",
+    }, {
+      image: "https://images.thdstatic.com/productImages/d0f91a8a-a6fc-4eda-8bb7-a86d4d1ff162/svn/zinus-mattress-toppers-hd-gtft-400sq-64_300.jpg",
+      span: "Zinus",
+      detail: "Zinus 4 in. Medium No Pocket Memory Foam Short Queen Mattress Topper",
+    }, {
+      image: "https://images.thdstatic.com/productImages/b37d798b-bbd7-426d-803e-7d3796112384/svn/white-bath-towels-78-64_300.jpg",
+      span: "Cotton Wash Cloth",
+      detail: "Standard Wash Cloth (Set of 24)",
+    }, {
+      image: "https://images.thdstatic.com/productImages/c278150f-2c66-489e-8996-9d020772aa99/svn/nuwallpaper-wallpaper-rolls-nus3161-64_300.jpg",
+      span: "NuWallpaper",
+      detail: "Lemon Drop Yellow Vinyl Peel & Stick Wallpaper Roll (Covers 30.75 Sq. Ft.)",
+    }, {
+      image: "https://images.thdstatic.com/productImages/7cba3210-0657-4718-84ed-fa3ee9309c6f/svn/nuwallpaper-wallpaper-rolls-nu2875-64_300.jpg",
+      span: "NuWallpaper",
+      detail: "Cream Grassweave Vinyl Peel & Stick Wallpaper Roll (Covers 30.75 Sq. Ft.)",
+    }, {
+      image: "https://images.thdstatic.com/productImages/7beb2d3e-207c-4b0c-a183-3c218820f1dd/svn/multi-color-empire-art-direct-posters-art-prints-tmp-ead0626-3672-64_300.jpg",
+      span: "Empire Art Direct",
+      detail: "'The Falls' Frameless Free Floating Tempered Art Glass by EAD Art Coop Wall Art",
+    },
+  ]
+
+  appendSponsered(object2)
+
+  function appendSponsered(arr) {
+    let x = ` `;
+    arr.map((el) => {
+      x += `  <div class="swiper-slide">
+          <img
+            src= ${el.image}
+            alt="">
+          <p><b>${el.span}</b> ${el.detail}</p>
+          <h5>500 rupees</h5>
+          <button>Add To Cart</button>
+        </div>`
+    });
+    document.querySelector(".swiper-wrapper").innerHTML = x;
+  }
+
+
+
+
+
+
+</script>
