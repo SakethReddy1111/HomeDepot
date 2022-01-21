@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="cart_page.css">
+    <link rel="stylesheet" href="./styles/cart_page.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/header.css">
 </head>
 <body>
 
-
+<div id="header"></div>
 <div class="container">
     <div class="div60">
          <div class="card">
@@ -235,7 +237,7 @@
          <hr>
 
          <p style="text-align:center;">— or —</p>
-         <button class="paypall_btn"><i style="color:blue;">Pay</i><i style="color:teal;">Pal</i>checkout</button>
+         <button id="paypal" class="paypall_btn"><i style="color:blue;">Pay</i><i style="color:teal;">Pal</i>checkout</button>
 
          <div class="hr_line"></div>
 
@@ -287,13 +289,35 @@
 
 
 
-
+<div id="footer"></div>
 
 
 
    
 </body>
 </html>
-<script src="cart_page.js">
+<script src="./scripts/cart_page.js">
 
+ 
+</script>
+<script type="module"> 
+   import footer from "./components/footer.js"
+
+   
+
+var btm= document.getElementById("footer")
+btm.innerHTML=footer()
+
+import {header} from  "./components/headerComp.js"
+
+var top= document.getElementById("header")
+top.innerHTML=header()
+
+ var pay= document.getElementById("paypal")
+ pay.addEventListener("click",paypal)
+function paypal(){
+    window.location.href="payment_page.html"
+}
+
+       
 </script>
