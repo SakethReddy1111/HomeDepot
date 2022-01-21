@@ -112,3 +112,6 @@ P > a {
   background-color: #f96302;
   border: none;
 }
+.class230 > p {
+  cursor: pointer;
+}

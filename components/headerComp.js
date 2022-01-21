@@ -1,6 +1,5 @@
-
 function header() {
-    return `
+  return `
     <div class="alert alert-primary" id="alert" role="alert">
             #1 Home Improvement Retailer
         </div>
@@ -60,8 +59,7 @@ function header() {
                 <a href="">Special & Offers</a>
                 <a href="">Local Ad & Catalog</a>
             </div>
-        </header>`
+        </header>`;
 }
 
-
-export { header }
+export { header };
