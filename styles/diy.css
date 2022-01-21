@@ -1,0 +1,156 @@
+.head{
+    border: 1px solid black;
+    height: 180px;
+    width: 100%;
+}
+#image1{
+   
+    height: 420px;
+    width: 99%;
+    margin: auto;
+}
+#holiday{
+    width: 100%;
+    height: 100%;
+}
+#buttons{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#btn{
+    background-color: transparent;
+    border-color: transparent;
+    color: #3e7697 ;
+    font-size: 17px;
+    padding-top:10px ;
+}
+#btn,#bttn:hover{
+text-decoration: underline;
+}
+#body{
+   
+   width: 100%;
+   
+   margin-top: 10px;
+   display: flex;
+   justify-content: space-between;
+}
+#left{
+   
+    width: 20%;
+    height: 600px;
+}
+#right{
+   
+    width: 78%;
+   
+    
+}
+#first{
+  
+    height: 350px;
+    width: 100%;
+    display: grid;
+    grid-template-columns:2fr 1fr ;
+}
+#first-img{
+    
+    height: 100%;
+}
+#image2{
+    width: 100%;
+    height: 100%;
+}
+#first-ryt{
+    text-align: center;
+}
+#learn{
+    color: white;
+    background-color: #ef6236;
+    padding:12px 30px;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+#bttn{
+    background-color: transparent;
+    border-color: transparent;
+    color: #3e7697 ;
+    font-size: 16px;
+    padding-top:5px ;
+
+}
+#third{
+  
+    width: 100%;
+    height: 160px;
+    margin-top: 60px;
+}
+#image3{
+    width: 96%;
+    height: 100%;
+}
+#fourGrid{
+   
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+    
+}
+#four{
+    width: 100%;
+    height: 100%;
+}
+#image4{
+    width: 100%;
+}
+div>p{
+    color: #9a9a9a;
+    font-size: 17px;
+}
+#threeGrid{
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 18px;
+    margin-top: 30px;
+    
+}
+#sixGrid{
+   
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(6,15%);
+   grid-gap: 15px;
+   margin-top: 35px;
+   
+}
+#hov:hover{
+   text-decoration: underline;
+}
+#fiveGrid{
+   
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   grid-gap: 15px;
+   margin-top: 35px;
+   
+}
+
+#thirty{
+   padding: 8px 40px;
+   background-color: transparent;
+   border-color:transparent ;
+   font-size: 17px;
+   color: #454545;
+   padding-left: 7px;
+}
+#thirty:hover{
+   text-decoration: underline;
+}
