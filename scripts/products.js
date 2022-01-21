@@ -194,7 +194,7 @@ let showProducts = (stringOf) => {
     but.textContent = "Add to Cart";
     but.addEventListener("click", function () {
       let itemsCart = JSON.parse(localStorage.getItem("addToCart")) || [];
-
+      el.quantity = 1;
       itemsCart.push(el);
       localStorage.setItem("addToCart", JSON.stringify(itemsCart));
     });
