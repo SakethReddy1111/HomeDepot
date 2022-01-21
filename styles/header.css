@@ -54,7 +54,8 @@
   font-size: 15px;
 }
 #account i{
-  font-size: 25px;
+  font-size: 20px;
+
 }
 #searchBox{
   display: flex;
@@ -68,8 +69,9 @@
   padding-left: 10px;
   font-size: 18px;
 }
-#searchBox button{
-   padding: 0px 5px;
+#searchBox i{
+   padding: 0px 5px;  
+   font-size: 20px;
    background-color: #f96302;
    color: white;
 }

@@ -25,7 +25,9 @@
     document.getElementById("location_search").addEventListener("keypress", function (event) {
         if (event.key == 'Enter') {
             let value = document.getElementById("location_search").value;
-            document.getElementById("view_location").textContent = value;
+            document.getElementById("view_location").textContent = value.toUpperCase();
+
+            document.getElementById("inputpart").style.display = "none"
         }
     });
 </script>

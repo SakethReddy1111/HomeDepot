@@ -26,9 +26,9 @@ function header() {
                                 aria-expanded="false">
                                 <span class="fw-5">Enter your location</span>
                             </div>
-                            <div class="dropdown-menu box" >
-                                <div class="dropdown-item">
-                                    <input type="text" id="location_search">
+                            <div class="dropdown-menu box" id="inputpart">
+                                <div class="dropdown-item"  >
+                                    <input type="text" id="location_search" placeholder=" Enter location">
                                 </div>
                             </div>
                         </div>
