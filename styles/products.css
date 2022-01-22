@@ -2,7 +2,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: whitesmoke;
 }
-.main{
+.main {
   margin-bottom: 30px;
 }
 #col15 {
@@ -60,11 +60,7 @@ h3 > sup {
   color: green;
 }
 
-<<<<<<< HEAD
 .class624 button {
-=======
-#content button {
->>>>>>> udit
   width: 100%;
   margin-top: 15px;
   margin-left: -8px;
