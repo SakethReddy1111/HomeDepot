@@ -30,6 +30,7 @@ async function loginMyAccount() {
     if (xo.token == "47097357fa18466c03efe81b056677d" || xo.error == "false") {
     } else {
       alert("Login Successful");
+      window.location.href = "index.html";
     }
   } catch (er) {
     alert("Invalid Credentials...");

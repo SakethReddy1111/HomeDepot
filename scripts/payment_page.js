@@ -1,7 +1,7 @@
 let toPay = JSON.parse(localStorage.getItem("payableAmount"));
 
 let div = document.getElementById("toPay");
-div.textContent = "$" + toPay;
+div.textContent = "$" + Number(toPay).toFixed(2);
 
 let navToDelivery = () => {
   let firstname = document.getElementById("firstname").value;

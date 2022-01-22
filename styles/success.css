@@ -29,5 +29,15 @@ button {
   justify-content: center;
 }
 button {
+  margin-left: 20%;
+  font-weight: bold;
   width: 60%;
+  border: #f96302 solid 2px;
+  color: #f96302;
+  background-color: white;
+  height: 40px;
+}
+button:hover {
+  background-color: #f96302;
+  color: white;
 }

@@ -3,6 +3,14 @@ let userDetails = JSON.parse(localStorage.getItem("userDetails"));
 let username = document.getElementById("name");
 username.textContent = userDetails.firstname + " " + userDetails.lastname;
 
+let cartproducts = JSON.parse(localStorage.getItem("addToCart"));
+cartproducts = [];
+localStorage.setItem("addToCart", JSON.stringify(cartproducts));
+
+let payableamountIs = JSON.parse(localStorage.getItem("payableAmount"));
+payableamountIs = 0;
+localStorage.setItem("payableAmount", JSON.stringify(payableamountIs));
+
 let address = document.getElementById("address");
 address.textContent =
   userDetails.hno +
@@ -18,3 +26,7 @@ number.textContent = userDetails.mobile;
 
 let payable = document.getElementById("payable");
 payable.textContent = "$" + userDetails.toPay;
+
+function treaser() {
+  window.location.href = "index.html";
+}
