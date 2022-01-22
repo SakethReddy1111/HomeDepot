@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .header {
-  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .alert-primary {
   height: 20px;
@@ -22,21 +15,19 @@
   border-radius: 0%;
   margin-bottom: 0%;
 }
-#navlist{
+#navlist {
   display: flex;
   justify-content: end;
-
 }
-
-#navlist a{
+#navlist a {
   text-decoration: none;
   color: black;
   font-size: 12px;
   text-align: center;
 }
-#navlist>a:hover{
-   border-bottom: 1px solid black;
-   cursor: pointer;
+#navlist > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 #location {
   font-family: helvetica-neue, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -47,147 +38,164 @@
   font-size: 14px;
   font-weight: bold;
 }
-.box{
- max-width: none;
- width: 230px;
+.box {
+  max-width: none;
+  width: 230px;
 }
-#account  h6{
+#account h6 {
   font-size: 15px;
 }
-#account i{
-  font-size: 25px;
+#account i {
+  font-size: 20px;
 }
-#searchBox{
+#searchBox {
   display: flex;
   margin: auto;
   justify-content: center;
 }
-#searchBox input{
+#searchBox input {
   width: 100%;
   height: 35px;
   outline: none;
   padding-left: 10px;
   font-size: 18px;
 }
-#searchBox button{
-   padding: 0px 5px;
-   background-color: #f96302;
-   color: white;
+#searchBox i {
+  padding: 0px 6px;
+  font-size: 20px;
+  background-color: #f96302;
+  color: white;
 }
-#item_list{
+#searchBtn {
+  background-color: #f96302;
+}
+#item_list {
   display: flex;
   margin-top: 10px;
   padding-bottom: 10px;
   justify-content: space-around;
-  box-shadow: 2px  5px 5px  gray;
-
+  box-shadow: 2px 5px 5px gray;
 }
-#item_list a{
+#item_list a {
   color: black;
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
-  transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
-#item_list>a:hover{
-    font-size: 15.5px;
-    border-bottom: 2px solid #f96302;
-  
+#item_list > a:hover {
+  font-size: 15.5px;
+  border-bottom: 2px solid #f96302;
 }
-=======
-* {
-    /* margin: 0;
-    padding: 0; */
-    box-sizing: border-box;
-  }
-  
-  .header {
-    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  .alert-primary {
-    height: 20px;
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #f96302;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    border-radius: 0%;
-    margin-bottom: 0%;
-  }
-  #navlist{
-    display: flex;
-    justify-content: end;
-  
-  }
-  
-  #navlist a{
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-    text-align: center;
-  }
-  #navlist>a:hover{
-     border-bottom: 1px solid black;
-     cursor: pointer;
-  }
-  #location {
-    font-family: helvetica-neue, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  
-  #location > h6 {
-    line-height: 0%;
-    font-size: 14px;
-    font-weight: bold;
-  }
-  .box{
-   max-width: none;
-   width: 230px;
-  }
-  #account  h6{
-    font-size: 15px;
-  }
-  #account i{
-    font-size: 25px;
-  }
-  #searchBox{
-    display: flex;
-    margin: auto;
-    justify-content: center;
-  }
-  #searchBox input{
-    width: 100%;
-    height: 35px;
-    outline: none;
-    padding-left: 10px;
-    font-size: 18px;
-  }
-  #searchBox button{
-     padding: 0px 5px;
-     background-color: #f96302;
-     color: white;
-  }
-  #item_list{
-    display: flex;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    justify-content: space-around;
-    box-shadow: 2px  5px 5px  gray;
-  
-  }
-  #item_list a{
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
-    transition: all .1s ease-in-out;
-  }
-  #item_list>a:hover{
-      font-size: 15.5px;
-      border-bottom: 2px solid #f96302;
-    
-  }
->>>>>>> 0ec8bffdac05536cc80fd7d01fde68b535a7ca41
+
+/* profile section */
+
+.profile-sec {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+}
+.dropAccount {
+  position: relative;
+  display: inline-block;
+}
+.dropH1-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 300px;
+  padding: 20px;
+
+  height: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropH1-content a {
+  color: black;
+  display: block;
+}
+
+.dropAccount:hover .dropH1-content {
+  display: block;
+}
+/* hfdk */
+
+/* login */
+.loginhover {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  /* background-color: saddlebrown; */
+  justify-content: space-evenly;
+}
+.loginhover > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lining {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+.loginhover > div:nth-child(1) button:nth-child(1) {
+  background-color: #f96302;
+  color: white;
+  outline: none;
+  border: none;
+}
+.loginhover > div:nth-child(1) button:nth-child(2) {
+  background-color: #fff;
+  margin-top: 10px;
+  color: #f96302;
+  border: 2px solid #f96302;
+  outline: none;
+}
+.loginhover > div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+}
+.loginhover > div:nth-child(3) a {
+  text-decoration: none;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover {
+  border-bottom: 2px solid #f96302;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  margin-top: 1.5%;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 5px 16px;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

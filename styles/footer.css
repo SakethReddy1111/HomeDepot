@@ -7,6 +7,7 @@
 #class312 {
   display: flex;
   font-size: small;
+  padding: 0px 20px;
   justify-content: space-between;
   background-color: whitesmoke;
 }
@@ -20,6 +21,7 @@
 }
 #id421 {
   display: grid;
+  padding: 20px;
   grid-template-columns: repeat(4, 1fr);
 }
 .class230 > p {

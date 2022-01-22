@@ -2,6 +2,9 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   background-color: whitesmoke;
 }
+.main {
+  margin-bottom: 30px;
+}
 #col15 {
   display: flex;
 }
@@ -72,7 +75,7 @@ h3 > sup {
   position: absolute;
   bottom: 0;
 }
-button:hover {
+#content button:hover {
   background-color: #f96302;
   color: white;
 }
