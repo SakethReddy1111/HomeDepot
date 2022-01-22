@@ -46,8 +46,8 @@ function header() {
                                 <div class="dropH1-content">
                                     <div class="loginhover">
                                         <div>
-                                            <button>Sign in</button>
-                                            <button>Register</button>
+                                            <button><a href="login.html">Sign in</a></button>
+                                            <button><a href="register.html">Register</a></button>
                                         </div>
                                         <div class="lining"></div>
                                         <div>
