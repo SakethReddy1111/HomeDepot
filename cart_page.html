@@ -56,7 +56,9 @@
         <!-- card ends here -->
 
         <div class="your_cart">
-          <div class="cart1">Your Cart(1)</div>
+          <div class="cart1">
+            Your Cart (<span id="quantityOfCart">0</span>)
+          </div>
           <div>
             <img
               id="arrow"
@@ -68,7 +70,12 @@
         </div>
         <hr style="margin-top: 0px; border: 1px solid grey; margin: 0px" />
 
-        <a style="display: block; margin-top: 15px" href="">Remove All Items</a>
+        <a
+          onclick="removeAll()"
+          style="display: block; margin-top: 15px"
+          href=""
+          >Remove All Items</a
+        >
 
         <p>FREE Shipping on eligible items. <a href="">View Details</a></p>
         <!-- -----------cart Products--------- -->
@@ -117,7 +124,7 @@
           available. <br />
           Other methods will be viewable on the next page.
         </p>
-        <button class="checkout">Checkout</button>
+        <button onclick="navToCheckout()" class="checkout">Checkout</button>
 
         <hr />
         <p style="text-align: center; color: grey">Turn on Instant Checkout</p>
