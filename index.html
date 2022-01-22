@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="shortcut icon"
+    href="data:image/png;base64,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" />
+  <title>The Home Depot TM</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Bootstrap Files -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Bootstrap Files -->
+
+  <link rel="stylesheet" href="./styles/header.css" />
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+
+</head>
+
+<body>
+  <div class="main">
+  </div>
+  <div class="crousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20220106-Foundation-2.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/120bathhero-d.png"
+            class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20220106-Appliances-1.jpg"
+            class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="posters">
+    <img
+      src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20210304HPHomeServicesD.png"
+      width="100%" alt="">
+  </div>
+  <div class="categories">
+    <div class="head">
+      <h1>Shop by Category</h1>
+      <div class="line">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="cetegory"></div>
+  </div>
+  <br>
+  <br>
+  <hr>
+  <div class="special">
+    <div>
+      <div>
+        <img src="https://www.homedepot.com/SpecialBuy/images/Logo-SBOTD.svg" width="13%" alt="">
+        <div>
+          <h3>Up to $675 off Select Vanities, Bidets & Faucets</h3>
+          <p>Free Delivery. <span><b>Today Only.</b></span></p>
+        </div>
+      </div>
+      <div>
+        <button>Shop Today's Spacials</button>
+      </div>
+    </div>
+    <div id="specialItems"></div>
+  </div>
+  <br>
+  <hr>
+  <div class="discounts">
+    <div class="head">
+      <h1>Get Doing Inside & Out </h1>
+      <div class="line">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div id="disc_items"></div>
+  </div>
+  <div class="posters ">
+    <img
+      src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20210304HPHomeServicesD.png"
+      width="100%" alt="">
+  </div>
+  <div class="amenities"></div>
+  <div class="posters ">
+    <img
+      src="https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20210913HPCreditOfferD.png"
+      width="100%" alt="">
+  </div>
+  <br>
+  <br>
+  <div class="categories">
+    <div class="head">
+      <h1>You're Shoping <b class="view_location2"></b></h1>
+      <div class="line">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div class="location_Div">
+      <div class="maprouts">
+        <h1 class="text-success">Enter Your City Name To See <i class="bi bi-geo-alt-fill"></i> Your Location...
+        </h1>
+      </div>
+      <div class="scedule border ">
+        <div>
+          <h4>You're Shopping <i class="view_location3"></i></h4>
+        </div>
+        <div>
+          <p class="red_text"></p>
+        </div>
+        <div class="row">
+          <p class="col-6 "><a href="">Store Details</a></p>
+          <p class="col-6 text-end"><a href="">Local Ad</a></p>
+        </div>
+      </div>
+      <div class="scedule">
+        <div>
+          <h5> <span class="text-success ">Free </span> Livestream Workshops</h5>
+        </div>
+        <div>
+          <p>From basic maintenance to Pinterest-worthy projects, our associates will teach you how to go from idea to
+            done.</p>
+        </div>
+        <div class="row">
+          <p class="col-12 "><a href="">View All Workshops</a></p>
+        </div>
+      </div>
+      <div>
+        <img
+          src="https://www.homedepot.com/hdus/en_US/DTCCOMNEW/fetch/Test_and_Target/UX_Assets/thd-livestream-workshop-2x.jpg"
+          width="100%" alt="">
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="categories" id="sponser_div">
+    <div class="head">
+      <h1>Sponsored Products</h1>
+      <div class="line">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- Sponsered crausel -->
+    <div #swiperRef="" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <!-- Sponsered crausel -->
+  </div>
+  <br>
+  <br>
+  <div class="popular">
+    <div class="popular">
+      <div class="head">
+        <h1>Popular Categories</h1>
+        <div class="line">
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+    <div class="category_product">
+      <div>
+        <a href="">Automotive</a>
+        <a href="">Cleaning</a>
+      </div>
+      <div>
+        <a href="">Exercise Equipment</a><a href="">Furniture</a>
+      </div>
+      <div>
+        <a href="">Home Decor</a><a href="">Lighting</a>
+      </div>
+      <div>
+        <a href="">Lumber</a><a href="">Outdoor Living</a>
+      </div>
+      <div>
+        <a href="">Playground Equipment</a><a href="">Safety Equipment</a>
+      </div>
+      <div>
+        <a href="">Smart Home</a><a href=""> Workwear</a>
+      </div>
+    </div>
+  </div>
+  <footer></footer>
+</body>
+
+</html>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script type="module">
+
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 6,
+    centeredSlides: false,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "none",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+
+
+
+  // Imports 
+  import { header } from "./components/headerComp.js";
+  document.querySelector(".main").innerHTML = header()
+  import footerFunc from "./components/footer.js";
+  document.querySelector("footer").innerHTML = footerFunc();
+
+
+
+
+
+
+
+
+
+
+
+  //  Location Finder
+  document.getElementById("location_search").addEventListener("keypress", function (event) {
+    if (event.key == 'Enter') {
+      let value = document.getElementById("location_search").value;
+      document.getElementById("view_location").textContent = value.toUpperCase();
+      document.querySelector(".view_location2").textContent = value.toUpperCase();
+      document.querySelector(".view_location3").textContent = value.toUpperCase();
+      document.getElementById("inputpart").style.display = "none"
+      appendMap(value);
+    }
+  });
+
+
+  // map  append
+
+
+
+  function appendMap(name) {
+    document.querySelector(".maprouts").innerHTML = " ";
+    let x = ` <div class="mapouter">
+          <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+              src="https://maps.google.com/maps?q=  ${name}&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+              scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          </div>
+        </div>`;
+    document.querySelector(".maprouts").innerHTML = x;
+  }
+
+
+
+
+  if (new Date().toTimeString() > "09:00:00 GMT+0530 (India Standard Time)" && new Date().toTimeString() < "22:00:00 GMT+0530 (India Standard Time)") {
+    let time = document.querySelector(".red_text");
+    time.innerHTML = "<b>OPEND </b> Opened till 10:00 pm"
+    time.style.color = "green"
+  }
+  else {
+    let time = document.querySelector(".red_text");
+    time.innerHTML = "<b>CLOSED </b> Open tomorrow at 6:00 am"
+    time.style.color = "red"
+  }
+
+  // Time setting 
+
+  if (new Date().toTimeString() > "09:00:00 GMT+0530 (India Standard Time)" && new Date().toTimeString() < "22:00:00 GMT+0530 (India Standard Time)") {
+    let time = document.querySelector(".timeZone");
+    time.innerHTML = `<i class="bi bi-circle-fill"></i> Open <span>until 10pm</span>`
+    time.style.color = "green"
+  }
+  else {
+    let time = document.querySelector(".timeZone");
+    time.innerHTML = `<i class="bi bi-circle-fill"></i> Closed <span>until 6 am</span>`
+    time.style.color = "red"
+  }
+
+  // Time setting 
+
+
+  // Category Section
+  let arr = ["https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/hp-50-51-sbc-overstock-button-dsk.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/hp-50-51-sbc-ss-button-dsk.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat1-Appliances.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat2-Bath.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat4-Building.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat5-Decor.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat7-Electrical.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat8-Flooring.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat9-Hardware.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat10-Hvac.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat11-Kitchen.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat12-LawnGarden.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat13-Lighting.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat14-OutdoorLiving.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat15-Paint.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat16-Plumbing.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat17-StorageOrg.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/Cat18-Tools.png"]
+  appendCat(arr)
+  function appendCat(arr) {
+    arr.map((el) => {
+      let category = document.querySelector(".cetegory");
+      let image = document.createElement("img");
+      image.src = el
+      category.append(image);
+    })
+  }
+
+
+
+
+
+
+
+
+
+
+
+  // Special Section
+
+  let arr1 = ["https://images.thdstatic.com/productImages/3c70eaeb-d502-4bf0-af8f-e466f04c5597/svn/renogy-solar-power-accessories-rbt100lfp12-bt-us-64_145.jpg", "https://images.thdstatic.com/productImages/0575b228-7e63-441c-89e3-a7d2db817d24/svn/renogy-solar-battery-chargers-r300phx-g1-64_145.jpg", "https://images.thdstatic.com/productImages/ce586676-e394-49c5-b98e-6b06d4c56435/svn/renogy-off-grid-solar-systems-rng-kit-premium800d-rvr40-64_145.jpg", "https://images.thdstatic.com/productImages/046fcfac-d9bd-4403-bcae-fe7ca1020672/svn/nature-power-home-wind-turbines-70501-64_145.jpg", "https://images.thdstatic.com/productImages/17f29b85-9e61-4228-b45c-8902e10199d7/svn/nature-power-solar-panels-53000-64_145.jpg", "https://images.thdstatic.com/productImages/f449d49b-b1d0-4601-9650-27d8ab5e8872/svn/renogy-off-grid-solar-systems-rng-kit-bundle100d-wnd30-us-64_145.jpg", "https://images.thdstatic.com/productImages/ed164ad5-8a1b-4a8a-96b7-00eb6f8d0fd2/svn/nature-power-solar-power-accessories-41000-64_145.jpg", "https://images.thdstatic.com/productImages/16177311-77d9-4f50-90dc-07e2ebc90482/svn/renogy-off-grid-solar-systems-rng-kit-stcs100mb-voy20-64_145.jpg", "https://images.thdstatic.com/productImages/a048a65f-540a-4e8a-affd-a2af6c52ab7f/svn/renogy-solar-power-accessories-rbt100lfp12s-g1-64_145.jpg"];
+  appendSpacial(arr1)
+  function appendSpacial(arr) {
+    arr.map((el) => {
+      let category = document.querySelector("#specialItems");
+      let image = document.createElement("img");
+      image.src = el;
+      category.append(image);
+    })
+  }
+
+
+
+
+
+
+
+
+  //  Discount Section
+
+  let arr3 = [
+    {
+      image: "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20220113-Tools.jpg",
+      disc: "UP TO 40% OFF",
+      opt: " Select Tools + Free 2-Day Delivery"
+    },
+    {
+      image: "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20220113-Bedding.jpg",
+      disc: "UP TO 30% OFF",
+      opt: " Select Furniture, Mattresses & Linens"
+    },
+    {
+      image: "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/20220113-Lighting.jpg",
+      disc: "UP TO 25% OFF",
+      opt: " Select Vanity Lighting"
+    },
+    {
+      image: "https://www.homedepot.com/hdus/en_US/DTCCOMNEW/20211228-Flooring.jpg",
+      disc: "FLOORING FOR EVERY SPACE",
+      opt: " See Styles in Your Room with our Visualizer"
+    }
+  ]
+  appendDiscount(arr3)
+  function appendDiscount(arr) {
+
+    arr.map((el) => {
+
+      let category = document.querySelector("#disc_items");
+      let smallDiv = document.createElement("div");
+      let image = document.createElement("img");
+      image.src = el.image
+      let h = document.createElement("h2");
+      h.textContent = el.disc;
+      let p = document.createElement("p");
+      p.textContent = el.opt;
+      smallDiv.append(image, h, p);
+      category.append(smallDiv)
+    })
+  }
+
+
+
+
+
+
+
+  //  Amenities Section
+
+  let arr4 = ["https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/2021DAppCapabilities5.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/2021RentalCapabilities5.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/2021CUrbsideCapabilities5.png", "https://contentgrid.thdstatic.com/hdus/en_US/DTCCOMNEW/fetch/NexGen/ContentPage/2021DeliveryCapabilities5.png"];
+
+  appendAminity(arr4)
+  function appendAminity(arr) {
+    arr.map((el) => {
+      let category = document.querySelector(".amenities");
+      let image = document.createElement("img");
+      image.src = el
+      category.append(image);
+    })
+  }
+
+
+
+
+
+  // Special carausel
+
+
+
+  let object2 = [
+    {
+      image: "https://images.thdstatic.com/productImages/5248be12-ff60-4e78-b924-271aed1e90cc/svn/ghostbed-bed-pillows-11gbpw010-64_300.jpg",
+      span: "GHOSTBED",
+      detail: "Cool To The Touch Soft Memory Foam Standard Pillow",
+    }, {
+      image: "https://images.thdstatic.com/productImages/64e6fb90-fcb2-4acc-8cd1-b7d3c533ee6a/svn/ghostbed-bed-pillows-11gbfdp010-64_300.jpg",
+      span: "GHOSTBED",
+      detail: "Faux Down Soft Microfiber Gel Memory Foam Standard Pillow",
+    }, {
+      image: "https://images.thdstatic.com/productImages/c317f15c-8fe8-4832-8e85-c28db2086ee8/svn/mint-home-dynamix-bathroom-rugs-bath-mats-10-dmd-411-64_300.jpg",
+      span: "Home Dynamix",
+      detail: "Capri Haven Mint 17 in. x 24 in. Memory Foam Bath Mat",
+    }, {
+      image: "https://images.thdstatic.com/productImages/04ca72f7-c0a0-4c77-bd56-56486b9b42f0/svn/multi-color-the-clean-store-bath-towels-148-64_300.jpg",
+      span: "THE CLEAN STORE",
+      detail: "Washcloths Cleaning (60-Pack)",
+    }, {
+      image: "https://images.thdstatic.com/productImages/1b20ecbf-22d9-47a2-8cf1-f49b5e3082ed/svn/white-home-dynamix-bathroom-rugs-bath-mats-2-omstr-105-64_300.jpg",
+      span: "Home Dynamix",
+      detail: "Ombre Element White/Ivory 20 in. x 32 in. Stripe Polyester Bath Mat",
+    }, {
+      image: "https://images.thdstatic.com/productImages/1db068e7-38f0-4dac-acf9-3a086f200517/svn/white-bath-towels-149-64_300.jpg",
+      span: "Hand Towel ",
+      detail: "Standard Towel (Set of 12)",
+    }, {
+      image: "https://images.thdstatic.com/productImages/d6537990-a94b-415c-a449-c07371975e80/svn/zinus-mattress-toppers-hd-gtft-150sq-64_300.jpg",
+      span: "Zinus",
+      detail: "Zinus in. Medium No Pocket Memory Foam Short Queen Mattress Topper",
+    }, {
+      image: "https://images.thdstatic.com/productImages/d0f91a8a-a6fc-4eda-8bb7-a86d4d1ff162/svn/zinus-mattress-toppers-hd-gtft-400sq-64_300.jpg",
+      span: "Zinus",
+      detail: "Zinus 4 in. Medium No Pocket Memory Foam Short Queen Mattress Topper",
+    }, {
+      image: "https://images.thdstatic.com/productImages/b37d798b-bbd7-426d-803e-7d3796112384/svn/white-bath-towels-78-64_300.jpg",
+      span: "Cotton Wash Cloth",
+      detail: "Standard Wash Cloth (Set of 24)",
+    }, {
+      image: "https://images.thdstatic.com/productImages/c278150f-2c66-489e-8996-9d020772aa99/svn/nuwallpaper-wallpaper-rolls-nus3161-64_300.jpg",
+      span: "NuWallpaper",
+      detail: "Lemon Drop Yellow Vinyl Peel & Stick Wallpaper Roll (Covers 30.75 Sq. Ft.)",
+    }, {
+      image: "https://images.thdstatic.com/productImages/7cba3210-0657-4718-84ed-fa3ee9309c6f/svn/nuwallpaper-wallpaper-rolls-nu2875-64_300.jpg",
+      span: "NuWallpaper",
+      detail: "Cream Grassweave Vinyl Peel & Stick Wallpaper Roll (Covers 30.75 Sq. Ft.)",
+    }, {
+      image: "https://images.thdstatic.com/productImages/7beb2d3e-207c-4b0c-a183-3c218820f1dd/svn/multi-color-empire-art-direct-posters-art-prints-tmp-ead0626-3672-64_300.jpg",
+      span: "Empire Art Direct",
+      detail: "'The Falls' Frameless Free Floating Tempered Art Glass by EAD Art Coop Wall Art",
+    },
+  ]
+
+  appendSponsered(object2)
+
+  function appendSponsered(arr) {
+    let x = ` `;
+    arr.map((el) => {
+      x += `  <div class="swiper-slide">
+          <img
+            src= ${el.image}
+            alt="">
+          <p><b>${el.span}</b> ${el.detail}</p>
+          <h5>Rs. ${Math.floor(Math.random() * 2000) + 500} </h5>
+          <button><b>Add To Cart</b></button>
+        </div>`
+    });
+    document.querySelector(".swiper-wrapper").innerHTML = x;
+  }
+
+
+
+
+
+
+</script>
