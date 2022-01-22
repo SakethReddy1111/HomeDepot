@@ -5,9 +5,8 @@
         border: 1px solid red;
     }
  #main{
-        
-        
-    }
+ }
+
     #whole{
         background-color: rgb(242, 242, 247);
     }
@@ -49,6 +48,8 @@
         
         
     }
+
+   
    
     #todayspecial>h1{
         
@@ -64,7 +65,7 @@
         width: 92%;
         margin-left: 50px;
         height: 80px;
-     
+         margin-top: -20px;
         display: flex;
         height: 40px;
     }
@@ -104,6 +105,7 @@
         width: 92%;
         margin-left: 50px;
         height: 400px;
+        margin-bottom: 50px;
         
     }
     #main_slider>div>img{
@@ -117,6 +119,7 @@
 
   #main_slider>div>h1{
         margin-left: 50px;
+        margin-bottom: 30px;
     }
     #main_slider>div>p{
         margin-top: -20px;
@@ -131,7 +134,7 @@
        width: 92%;
        margin-left: 50px;
        height: 100px;
-    
+         margin-bottom: 50px;
        display: flex;
    }
 
@@ -143,21 +146,29 @@
    }
 
    #pricebox1>p{
-       margin-left: 40px;
-       margin-top: -20px;
+       color: green;
+       margin-top: -6px;
+       
    }
+
+  
 
    #department{
      
        width: 92%;
-       margin-left: 50px;
+       margin-left: 30px;
        display: flex;
        height: 480px;
+       
    }
 
    h1{
        width: 92%;
        margin-left: 50px;
+   }
+
+   #department>#tool{
+       margin-right: 20px;
    }
 
    #tool>img{
@@ -169,9 +180,10 @@
    }
 
    #poster{
-display: flex;
-width: 92%;
-margin-left: 50px;
+       margin-top: 40px;
+      display: flex;
+      width: 92%;
+      margin-left: 50px;
    }
 
    #poster>div{
@@ -187,6 +199,8 @@ margin-left: 50px;
        width: 92%;
        margin-left: 50px;
        display: flex;
+       margin-top: 50px;
+       margin-bottom: 40px;
    }
 
    #member>div{
@@ -199,4 +213,4 @@ margin-left: 50px;
    p{
        width: 92%;
        margin-left: 50px;
-   }
+    }

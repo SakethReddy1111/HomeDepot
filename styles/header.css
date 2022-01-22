@@ -1,16 +1,5 @@
-<<<<<<< HEAD
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.header {
-  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-=======
 .header {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
->>>>>>> main
 }
 .alert-primary {
   height: 20px;
@@ -26,15 +15,6 @@
   border-radius: 0%;
   margin-bottom: 0%;
 }
-<<<<<<< HEAD
-#navlist{
-  display: flex;
-  justify-content: end;
-
-}
-
-#navlist a{
-=======
 #navlist {
   display: flex;
   justify-content: end;
@@ -44,21 +24,14 @@
   color: black;
 }
 #navlist a {
->>>>>>> main
   text-decoration: none;
   color: black;
   font-size: 12px;
   text-align: center;
 }
-<<<<<<< HEAD
-#navlist>a:hover{
-   border-bottom: 1px solid black;
-   cursor: pointer;
-=======
 #navlist > a:hover {
   text-decoration: underline;
   cursor: pointer;
->>>>>>> main
 }
 #location {
   font-family: helvetica-neue, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -69,19 +42,6 @@
   font-size: 14px;
   font-weight: bold;
 }
-<<<<<<< HEAD
-.box{
- max-width: none;
- width: 230px;
-}
-#account  h6{
-  font-size: 15px;
-}
-#account i{
-  font-size: 25px;
-}
-#searchBox{
-=======
 .box {
   max-width: none;
   width: 230px;
@@ -93,30 +53,17 @@
   font-size: 20px;
 }
 #searchBox {
->>>>>>> main
   display: flex;
   margin: auto;
   justify-content: center;
 }
-<<<<<<< HEAD
-#searchBox input{
-=======
 #searchBox input {
->>>>>>> main
   width: 100%;
   height: 35px;
   outline: none;
   padding-left: 10px;
   font-size: 18px;
 }
-<<<<<<< HEAD
-#searchBox button{
-   padding: 0px 5px;
-   background-color: #f96302;
-   color: white;
-}
-#item_list{
-=======
 #searchBox i {
   padding: 0px 6px;
   font-size: 20px;
@@ -127,34 +74,17 @@
   background-color: #f96302;
 }
 #item_list {
->>>>>>> main
   display: flex;
   margin-top: 10px;
   padding-bottom: 10px;
   justify-content: space-around;
-<<<<<<< HEAD
-  box-shadow: 2px  5px 5px  gray;
-
-}
-#item_list a{
-=======
   box-shadow: 2px 5px 5px gray;
 }
 #item_list a {
->>>>>>> main
   color: black;
   text-decoration: none;
   font-size: 15px;
   font-weight: 500;
-<<<<<<< HEAD
-  transition: all .1s ease-in-out;
-}
-#item_list>a:hover{
-    font-size: 15.5px;
-    border-bottom: 2px solid #f96302;
-  
-}
-=======
   transition: all 0.1s ease-in-out;
 }
 #item_list > a:hover {
@@ -273,4 +203,3 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
->>>>>>> main

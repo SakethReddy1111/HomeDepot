@@ -5,23 +5,10 @@
 }
 #class312 {
   display: flex;
-<<<<<<< HEAD
-  justify-content: space-between;
-  font-size: small;
-  
-  background-color: whitesmoke;
-
-}
-
-#class312>#mr{
-    margin-left: 30px;
-
-=======
   font-size: small;
   padding: 0px 20px;
   justify-content: space-between;
   background-color: whitesmoke;
->>>>>>> main
 }
 #class312 > h3 > sup {
   font-size: x-small;
@@ -33,11 +20,9 @@
 }
 #id421 {
   display: grid;
-<<<<<<< HEAD
-=======
   padding: 20px;
->>>>>>> main
   grid-template-columns: repeat(4, 1fr);
+  
 }
 .class230 > p {
   color: #3e7697;
@@ -49,11 +34,6 @@
 .class230 > h3 {
   font-weight: normal;
   font-size: 1.2rem;
-<<<<<<< HEAD
-  margin-left: 50px;
- 
-=======
->>>>>>> main
 }
 #id500 {
   text-align: center;
@@ -134,9 +114,6 @@ P > a {
   margin-left: -5px;
   background-color: #f96302;
   border: none;
-<<<<<<< HEAD
-}
-=======
 }
 .class230 > p {
   cursor: pointer;
@@ -145,4 +122,3 @@ P > a {
 .class230 {
   line-height: 2px;
 }
->>>>>>> main
