@@ -19,6 +19,10 @@
   display: flex;
   justify-content: end;
 }
+.col-4 a {
+  text-decoration: none;
+  color: black;
+}
 #navlist a {
   text-decoration: none;
   color: black;

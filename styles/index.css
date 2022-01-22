@@ -138,6 +138,11 @@
   column-gap: 15px;
   grid-template-columns: repeat(4, 1fr);
 }
+.location_Div > div:nth-child(1) {
+  background-color: #e47b35;
+  border-radius: 15px 0px 15px 0px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
 .location_Div > div {
   width: 100%;
   height: 100%;
