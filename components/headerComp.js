@@ -16,8 +16,8 @@ function header() {
             <div class="container-fluid" id="mainnav">
                 <div class="row">
                     <div class="col-1" id="logo">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TheHomeDepot.svg/800px-TheHomeDepot.svg.png"
-                            width="50px" alt="" />
+                        <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TheHomeDepot.svg/800px-TheHomeDepot.svg.png"
+                        width="50px" alt="" /></a>
                     </div>
                     <div class="col-2" id="location">
                         <h6 class="m-0">You're Shoping at <span id="view_location"></span> </h6>
@@ -77,7 +77,7 @@ function header() {
             </div>
             <div id="item_list">
                 <div class="dropdown">
-                    <a class="dropbtn" href="">All Departments</a>
+                    <a class="dropbtn" href="products.html">All Departments</a>
                     <div class="dropdown-content">
                         <a href="#">Appliances</a>
                         <a href="#">Bath & Faucets</a>
