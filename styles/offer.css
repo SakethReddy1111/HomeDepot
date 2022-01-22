@@ -1,0 +1,202 @@
+ 
+ #header{
+        
+        height: 170px;
+        border: 1px solid red;
+    }
+ #main{
+        
+        
+    }
+    #whole{
+        background-color: rgb(242, 242, 247);
+    }
+    #headline>p{
+        margin-left: 50px;
+        color: grey;
+
+    }
+     #headline>h3{
+        margin-left: 50px;
+         font-size: medium;
+    }
+
+    #shopnow>img{
+        width: 92%;
+        margin-left: 50px;
+
+    }
+
+    #specialbuy{
+        width: 92%;
+        margin-left: 50px;
+        height: 170px;
+        
+        display: flex;
+    
+    }
+
+
+    
+    #specialbuy>#logo{
+        height: 100px;
+        width: 120px;
+        
+        margin-right: 20px;
+    }
+     #specialbuy>#sbhead{
+        height: 100px;
+        
+        
+    }
+   
+    #todayspecial>h1{
+        
+        height: 50px;
+       
+        margin-left:30px;
+        width: 800px;
+        background-color: orangered;
+     text-align: center;
+    }
+
+    #box{
+        width: 92%;
+        margin-left: 50px;
+        height: 80px;
+     
+        display: flex;
+        height: 40px;
+    }
+    #box1{
+        width: 260px;
+        height: 40px;
+        border: 1px solid orangered;
+        margin-right: 20px;
+    }
+    #box2{
+        width: 250px;
+        height: 40px;
+         border: 1px solid gray;
+        margin-right: 20px;
+        color: gray;
+       
+    }
+    #box3{
+        width: 250px;
+        height: 40px;
+        border: 1px solid gray;
+        margin-right: 20px;
+        color: gray;
+    }
+    #box>div>img{
+        height: 35px;
+    }
+    #box>div>p{
+        font-weight: bold;
+       font-size: 20px;
+       margin-top: -40px;
+       margin-left: 35px;
+      
+    }
+    #main_slider{
+        display: flex;
+        width: 92%;
+        margin-left: 50px;
+        height: 400px;
+        
+    }
+    #main_slider>div>img{
+        height: 250px;
+        margin-right: 20px
+    }
+    .checked {
+  color: orange;
+  
+}
+
+  #main_slider>div>h1{
+        margin-left: 50px;
+    }
+    #main_slider>div>p{
+        margin-top: -20px;
+        margin-left: 50px;
+    }
+
+   #star{
+       margin-left: 50px;
+   }
+
+   #price{
+       width: 92%;
+       margin-left: 50px;
+       height: 100px;
+    
+       display: flex;
+   }
+
+   #pricebox1{
+       margin-left: 50px;
+       width: 240px;
+       border: 1px solid greenyellow;
+       height: 100px;
+   }
+
+   #pricebox1>p{
+       margin-left: 40px;
+       margin-top: -20px;
+   }
+
+   #department{
+     
+       width: 92%;
+       margin-left: 50px;
+       display: flex;
+       height: 480px;
+   }
+
+   h1{
+       width: 92%;
+       margin-left: 50px;
+   }
+
+   #tool>img{
+       width: 350px;
+   }
+
+   #tool>p{
+       margin-left: 100px;
+   }
+
+   #poster{
+display: flex;
+width: 92%;
+margin-left: 50px;
+   }
+
+   #poster>div{
+       margin-right: 20px;
+   }
+
+   
+   #poster>#last>img{
+       height: 150px;
+   }
+
+   #member{
+       width: 92%;
+       margin-left: 50px;
+       display: flex;
+   }
+
+   #member>div{
+       margin-right: 20px;
+   }
+
+   #member>#member1>img{
+       width: 650px;
+   }
+   p{
+       width: 92%;
+       margin-left: 50px;
+   }
