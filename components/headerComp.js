@@ -69,7 +69,7 @@ function header() {
                                 </div>
                             </div>
                             <h6 class="col-3">List <span><i class="bi bi-suit-heart"></i></span></h6>
-                            <h6 class="col-4"><a href="cart_page.html">Cart <span><i class="bi bi-cart2"></i></i></span></a></h6>
+                            <h6 class="col-4" ><a  href="cart_page.html">Cart <span><i class="bi bi-cart2"></i></i></span></a></h6>
                         </div>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ function header() {
                 </div>
 
                 <div class="dropdown">
-                    <a href="">DIY Projects & Ideas</a>
+                    <a href="diy.html">DIY Projects & Ideas</a>
                     <div class="dropdown-content">
                         <a href="#"> Bathroom</a>
                         <a href="#">Living Room</a>
