@@ -16,6 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/footer.css">
     <title></title>
   </head>
   <body>
@@ -665,13 +666,19 @@
         >
       </p>
     </div>
+    <!-- footer -->
+    <div id="footer"></div>
   </body>
 </html>
 
 <script type="module">
+import footerFunc from "./components/footer.js";
+let footerDiv = document.getElementById("footer");
+  footerDiv.innerHTML = footerFunc();
+
   import { header } from "./components/headerComp.js";
   document.querySelector(".main").innerHTML = header();
-
+  
   document
     .getElementById("location_search")
     .addEventListener("keypress", function (event) {
