@@ -1,14 +1,16 @@
 let footerFunc = () => {
     
     return `<div id="class312">
-
+   
+  <div>
     <h3>How doers get more done <sup>TM</sup></h3>
-    
-
+ </div>
+ <div>
     <p>
       Need Help? please call us at :
       <a href="">1-800-HOME-DEPOT (1-800-466-3337)</a>
     </p>
+    </div>
    
   </div>
   <br>
