@@ -178,6 +178,12 @@ let removeAll = () => {
 };
 
 let navToCheckout = () => {
+  let cartItems = JSON.parse(localStorage.getItem("addToCart"));
+
+  if (cartItems.length == 0) {
+    alert("Your Cart is Empty !");
+    return;
+  }
   localStorage.setItem("payableAmount", JSON.stringify(toPay));
   window.location.href = "payment_page.html";
 };
