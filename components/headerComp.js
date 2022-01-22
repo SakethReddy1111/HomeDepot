@@ -1,6 +1,5 @@
-
 function header() {
-    return `
+  return `
     <div class="alert alert-primary" id="alert" role="alert">
             #1 Home Improvement Retailer
         </div>
@@ -47,8 +46,8 @@ function header() {
                                 <div class="dropH1-content">
                                     <div class="loginhover">
                                         <div>
-                                            <button>Sign in</button>
-                                            <button>Register</button>
+                                            <button><a href="login.html">Sign in</a></button>
+                                            <button><a href="register.html">Register</a></button>
                                         </div>
                                         <div class="lining"></div>
                                         <div>
@@ -177,8 +176,7 @@ function header() {
                     </div>
                 </div>
             </div>
-        </header>`
+        </header>`;
 }
 
-
-export { header }
+export { header };
