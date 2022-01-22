@@ -14,13 +14,32 @@
 </head>
 
 <body>
-    <div class="main"> </div>
+    <div class="main">
+
+    </div>
 </body>
 
 </html>
 <script type="module">
     import { header } from "./components/headerComp.js";
     document.querySelector(".main").innerHTML = header()
+
+
+    // Time setting 
+
+
+    if (new Date().toTimeString() > "09:00:00 GMT+0530 (India Standard Time)" && new Date().toTimeString() < "22:00:00 GMT+0530 (India Standard Time)") {
+        let time = document.querySelector(".timeZone");
+        time.innerHTML = `<i class="bi bi-circle-fill"></i> Open <span>until 10pm</span>`
+        time.style.color = "green"
+    }
+    else {
+        let time = document.querySelector(".timeZone");
+        time.innerHTML = `<i class="bi bi-circle-fill"></i> Closed <span>until 6 am</span>`
+        time.style.color = "red"
+    }
+
+    // Time setting 
 
     document.getElementById("location_search").addEventListener("keypress", function (event) {
         if (event.key == 'Enter') {
