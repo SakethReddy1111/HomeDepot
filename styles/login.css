@@ -1,0 +1,46 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+#contain {
+  width: 35%;
+  margin: auto;
+  margin-top: 50px;
+}
+#imagediv {
+  width: 90px;
+  margin: auto;
+}
+img {
+  width: 100%;
+}
+h2 {
+  text-align: center;
+}
+#details {
+  line-height: 0px;
+  font-size: small;
+  color: gray;
+  margin-bottom: 20px;
+}
+input {
+  width: 100%;
+  height: 35px;
+}
+button {
+  width: 100%;
+  height: 40px;
+  font-weight: bold;
+  color: #f96302;
+  border: #f96302 solid 2px;
+  background-color: white;
+}
+button:hover {
+  color: white;
+  background-color: #f96302;
+}
+.street101 {
+  text-align: center;
+}
+#termsConds {
+  font-size: small;
+}

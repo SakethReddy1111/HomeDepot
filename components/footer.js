@@ -1,4 +1,5 @@
 let footerFunc = () => {
+<<<<<<< HEAD
     return `<div id="class312">
     <div id="mr">
 
@@ -6,12 +7,22 @@ let footerFunc = () => {
     </div>
 
     <div>
+=======
+  return `<div id="class312">
+    <h3>How doers get more done <sup>TM</sup></h3>
+>>>>>>> main
     <p>
       Need Help? please call us at :
       <a href="">1-800-HOME-DEPOT (1-800-466-3337)</a>
     </p>
+<<<<<<< HEAD
     </div>
   </div>
+=======
+  </div>
+  <br>
+  <br>
+>>>>>>> main
   <div id="id421">
     <div class="class230">
       <h3>Customer Service</h3>
@@ -174,4 +185,8 @@ let footerFunc = () => {
   </div>`;
 };
 
+<<<<<<< HEAD
 export default footerFunc;
+=======
+export default footerFunc;
+>>>>>>> main

@@ -1,0 +1,229 @@
+.crousel {
+  margin-top: 50px;
+}
+
+#carouselExampleIndicators {
+  width: 99%;
+  margin: auto;
+}
+
+.posters {
+  height: 100px;
+  margin-top: 30px;
+  padding: 0px 20px;
+  margin-bottom: 90px;
+}
+.head > h1 {
+  font-weight: 340;
+  font-size: 35px;
+  padding-left: 20px;
+}
+.line {
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+}
+.line > div:nth-child(1) {
+  width: 25%;
+  height: 4px;
+  background-color: orangered;
+}
+.line > div:nth-child(2) {
+  width: 75%;
+  height: 1px;
+  background-color: gray;
+}
+.cetegory {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 30px;
+  column-gap: 30px;
+  row-gap: 40px;
+}
+.cetegory img {
+  width: 100%;
+  cursor: pointer;
+}
+.special {
+  margin-top: 30px;
+}
+.special > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  /* background-color: blue; */
+}
+.special > div:nth-child(1) > div:nth-child(1) {
+  display: flex;
+  gap: 20px;
+}
+.special > div:nth-child(1) > div:nth-child(1) h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.special > div:nth-child(1) > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+}
+.special > div:nth-child(1) > div:nth-child(2) button {
+  width: 300px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  outline: none;
+  color: white;
+  background-color: #f96302;
+}
+#specialItems {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+#specialItems img {
+  width: 8%;
+  cursor: pointer;
+}
+
+.discounts {
+  margin-top: 60px;
+  margin-bottom: -10px;
+}
+#disc_items {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 60px;
+}
+#disc_items div {
+  padding: 18px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+#disc_items div h2 {
+  margin-top: 20px;
+  font-weight: bolder;
+  transition: all 0.3s ease-in-out;
+}
+#disc_items > div:hover {
+  text-decoration: underline;
+}
+#disc_items img {
+  width: 280px;
+  transition: all 0.2s ease-out;
+}
+#disc_items > div > img:hover {
+  width: 285px;
+}
+.amenities img {
+  width: 100%;
+}
+.amenities {
+  display: grid;
+  /* background-color: tomato; */
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  column-gap: 10px;
+  margin-top: -50px;
+  margin-bottom: -20px;
+}
+.location_Div {
+  width: 100%;
+  height: 250px;
+  padding: 20px;
+  display: grid;
+  column-gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.location_Div > div:nth-child(1) {
+  background-color: #e47b35;
+  border-radius: 15px 0px 15px 0px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.location_Div > div {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.maprouts div {
+  width: 100%;
+  height: 100%;
+}
+.scedule {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Crausel  styleing  */
+
+.swiper-wrapper {
+  width: fit-content;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  /* background: rgb(163, 161, 161); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide {
+  width: 100%;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid springgreen; */
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.swiper-slide button {
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border: 2px solid #f96302;
+  color: #f96302;
+}
+.swiper-slide p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.swiper-slide button:hover {
+  background-color: #f96302;
+  color: #fff;
+  cursor: pointer;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #f96302;
+  font-weight: bolder;
+}
+.category_product {
+  width: 90%;
+  display: flex;
+  margin-top: 20px;
+  margin-left: 30px;
+  justify-content: space-between;
+}
+.category_product div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.category_product div a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: gray;
+}
+.category_product div a:hover {
+  text-decoration: underline;
+}
+footer {
+  margin-top: 90px;
+}
