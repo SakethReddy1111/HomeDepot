@@ -134,7 +134,7 @@ function header() {
                     <a href="">Project Calculator</a>
                 </div>
                 <div class="dropdown">
-                    <a href="">Installation & Services</a>
+                    <a href="install-services.html">Installation & Services</a>
                     <div class="dropdown-content">
                         <a href="#"> Cabinet Installation</a>
                         <a href="#">Carpet Installation</a>
@@ -150,7 +150,7 @@ function header() {
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a href="">Special & Offers</a>
+                    <a href="offer.html">Special & Offers</a>
                     <div class="dropdown-content">
                         <a href="#">Tools</a>
                         <a href="#">Outdoor Living</a>
