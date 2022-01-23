@@ -25,7 +25,7 @@ let number = document.getElementById("number");
 number.textContent = userDetails.mobile;
 
 let payable = document.getElementById("payable");
-payable.textContent = "$" + userDetails.toPay;
+payable.textContent = "$" + Number(userDetails.toPay).toFixed(2);
 
 function treaser() {
   window.location.href = "index.html";
