@@ -1,7 +1,7 @@
 <h1># Home_Depot_Clone</h1>
 
+<a href = "https://trusting-leavitt-137a56.netlify.app/"><img src ="https://www.reviewsxp.com/blog/wp-content/uploads/2020/05/Home-Depot.jpg"/> </a>
 
-<img src ="https://www.reviewsxp.com/blog/wp-content/uploads/2020/05/Home-Depot.jpg"/>
 
 <h3>What is HomeDepot ?</h3>
 
