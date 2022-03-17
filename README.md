@@ -32,9 +32,7 @@
 
 <a href = "https://github.com/SakethReddy1111"><img src = "https://avatars.githubusercontent.com/u/95850230?v=4" width=100px/></a>
 <a href = "https://github.com/Uditkishore"><img src = "https://avatars.githubusercontent.com/u/95956949?v=4"  width=100px/></a>
-
 <a href = "https://github.com/Fatima2400"><img src = "https://avatars.githubusercontent.com/u/96168561?v=4"  width=100px/></a>
-
 <a href = "https://github.com/hanu329"><img src = "https://avatars.githubusercontent.com/u/95962474?v=4"  width=100px/></a>
 
 
