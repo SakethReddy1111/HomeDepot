@@ -14,7 +14,7 @@
 
 <h3>Description</h3>
 
-<p>Built for construct week in unit3 at Masai School to showCase what we learnt till now. Implemented using Frontend</p>
+<p>Built for construct week in unit3 at Masai School to showCase what we learnt till now. Implemented using Frontend. Only for educational purpose.</p>
 
 <h3>TechStacks</h3>
 
