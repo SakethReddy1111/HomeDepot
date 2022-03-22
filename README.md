@@ -12,7 +12,7 @@
 <p>The Home Depot, Inc., commonly known as Home Depot, is the largest home improvement retailer in the United States, supplying tools, construction products, appliances, and services. The company is headquartered in incorporated Cobb County, Georgia</p>
 
 
-<h3>Decription</h3>
+<h3>Description</h3>
 
 <p>Built for construct week in unit3 at Masai School to showCase what we learnt till now. Implemented using Frontend</p>
 
